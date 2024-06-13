@@ -36,3 +36,22 @@ Runs tests in console, in browser or with coverage.
 ### `lint`, `prettier`
 
 Runs linting and formatting for all files in `src` folder.
+
+# CDK Java project
+
+CDK Java project is located in cdk_java folder.
+
+It is a [Maven](https://maven.apache.org/) based project, so you can open this project with any Maven compatible Java IDE to build and run tests.
+
+## Useful commands
+
+* `mvn package`     compile and run tests
+* `cdk ls`          list all stacks in the app
+* `cdk synth`       emits the synthesized CloudFormation template
+* `cdk deploy`      deploy this stack to your default AWS account/region
+* `cdk diff`        compare deployed stack with current state
+* `cdk docs`        open CDK documentation
+
+[This is a "CloudFront" URL to my application.](https://d3cj117l79nyu6.cloudfront.net)\
+[This is a "S3" bucket url to my application](https://cdkjavastack-rstask2bucket010fd33b-ttgi9budcuyw.s3.eu-west-1.amazonaws.com/index.html)
+
